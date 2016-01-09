@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amigo Dash" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="138" width="441" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="SQp-BM-MH5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="51"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Demand Food Delivery" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="lgk-TG-UhZ">
+                    <rect key="frame" x="20" y="180" width="441" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="wnC-1f-Gf9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for Victoria" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Pnh-gS-923">
+                    <rect key="frame" x="20" y="198" width="441" height="58"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="F7E-kR-jyD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.2571466434899346" green="0.72846386660724893" blue="0.60376611747608466" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="lgk-TG-UhZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7g0-T6-lRi"/>
+                <constraint firstItem="lgk-TG-UhZ" firstAttribute="leading" secondItem="kId-c2-rCX" secondAttribute="leading" id="8ZH-c6-oJJ"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="trailing" secondItem="lgk-TG-UhZ" secondAttribute="trailing" id="QHl-aV-RA1"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="138" id="SOe-1S-IhM"/>
+                <constraint firstItem="lgk-TG-UhZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="180" id="V2g-pp-uxL"/>
+                <constraint firstItem="lgk-TG-UhZ" firstAttribute="leading" secondItem="Pnh-gS-923" secondAttribute="leading" id="daa-Ma-DOY"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="h0X-zx-Bb4"/>
+                <constraint firstItem="Pnh-gS-923" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="2" id="nla-by-BnW"/>
+                <constraint firstItem="lgk-TG-UhZ" firstAttribute="trailing" secondItem="Pnh-gS-923" secondAttribute="trailing" id="oxq-yF-Mcj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="404" y="445"/>
+        </view>
+    </objects>
+</document>

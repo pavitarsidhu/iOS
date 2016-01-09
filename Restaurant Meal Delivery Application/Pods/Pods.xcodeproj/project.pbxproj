@@ -1,0 +1,1406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002D33C57CD4313E8118ADB1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8834B5311DE82AFEF7A1CB79 /* Security.framework */; };
+		003800E7753AE78FD719E7EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE51D0F8E090A011B6DC41 /* Foundation.framework */; };
+		03B4224B065E25C4EE51D0B8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 684536D12AC12346D496E472 /* AFURLConnectionOperation.m */; };
+		0533AC7B8FB5BBF632F432E1 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 906389D444A2893FA9A899CE /* SDImageCache.h */; };
+		076112A6DC56B4668ABC8940 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DAF2F3B78772AFBC167AC4 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08F8B595FDCFA4B65BAAAFCC /* STPStrictURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5ECDE4F47A05DEEF4A9B19 /* STPStrictURLProtocol.h */; };
+		0ACCC6B415AC556713A78065 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B97220FF6CB847987D4E3 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0C0D465CC89EB6FA42D56A21 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 277C3971A720CD5923D16CDF /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F2623084839C938C1383E4E /* Pods-AmigoDash-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FE3940289702BE9E69D9EC /* Pods-AmigoDash-AFNetworking-dummy.m */; };
+		0F46923F0AA411AB52BD697D /* PTKUSAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 73065333DB917CAF1C9E4FC2 /* PTKUSAddressZip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1398AD96E5642619A6D13425 /* PTKCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B53125FAB13F40FD9B3D4A /* PTKCardNumber.h */; };
+		13C66E8657986E79768C08A6 /* Pods-AmigoDash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A840B9A3CECEABF046419C /* Pods-AmigoDash-dummy.m */; };
+		1512C65626A025EDEA7FE7D2 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BB74581EC371406722DBC198 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		15BD661B49970AC7DEB278AE /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B30F2F3E04C9BE19BC07DB2 /* UIRefreshControl+AFNetworking.m */; };
+		185F8C6805F3F331FE04EC23 /* STPCheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C86C2FC5E1FE2106B54BC60 /* STPCheckoutViewController.m */; };
+		18AAAD72D610230737CC1063 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E35F889FB0692CAF7E97C5E /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		191290E9F5E6B51FD3D92034 /* STPIOSCheckoutWebViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA04995E41327F382A5D23B /* STPIOSCheckoutWebViewAdapter.h */; };
+		1933614F8C7D1A75419CA2DC /* PTKCardCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1BF23E22B3BCF7F06F6849 /* PTKCardCVC.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1AE15A536FE1F8E3C780B216 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 787713BAD7BA283BF9E3A6BA /* UIRefreshControl+AFNetworking.h */; };
+		1C2CDBE126DFAE5344B870D4 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E40018E79861E72AD3B89E /* UIKit+AFNetworking.h */; };
+		1C3E04BF00E30FA112EACED1 /* PTKCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C919628F0600E5F3DE47D2A /* PTKCard.h */; };
+		1C481A7CFC80F4B19DC3108D /* STPColorUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4D90EDB0DF8D5D35A93028 /* STPColorUtils.h */; };
+		1D441287192C3E99527AB7E3 /* STPCheckoutViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B164FE9E60061B82D3954D0C /* STPCheckoutViewController.h */; };
+		1D8D77CCEF9D824C75D8116F /* StripeError.m in Sources */ = {isa = PBXBuildFile; fileRef = 719CC1A269F79491B1E01620 /* StripeError.m */; };
+		1DBD4B91CCC01BA763E7F5A5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CBBDEFBAFEBFC1717F94E1 /* UIWebView+AFNetworking.h */; };
+		206BD50AFAFEC780757A5F91 /* STPFormEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B221373562B70F37CC203B6 /* STPFormEncoder.m */; };
+		2132E748B3FCB97CE25526CD /* STPCheckoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2195F4BAF15644EE9231415A /* STPCheckoutDelegate.h */; };
+		24A3F2AFA6446EE39D3959C6 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A1CFA63FA7E9618FBB1B47 /* UIProgressView+AFNetworking.m */; };
+		255D0C119F05B04EC7C0529A /* STPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FCF929166481724810E48F /* STPToken.m */; };
+		25CF327E2F63AF9DC01AD422 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CCE8057F094120DC3C49EE3 /* AFNetworkActivityIndicatorManager.h */; };
+		25ECEF49EFD1870C328AAA43 /* STPNullabilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FC5DDC7397FEEE1A95BAB2 /* STPNullabilityMacros.h */; };
+		27B291639BE839F01F137D9B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E484C347FBDB2D339FE9C9 /* UIProgressView+AFNetworking.h */; };
+		2B60B6D03312AF0F49AD093D /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A0396422412DB36238FC2388 /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CF39F5A4B70D62CC16C982B /* Pods-AmigoDash-PaymentKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ECB12D0FAFB91F9D11F537 /* Pods-AmigoDash-PaymentKit-dummy.m */; };
+		2D21161A65F309934682CA43 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F74619E6B959498F6C7E88A6 /* AFURLConnectionOperation.h */; };
+		330B01791D0EF0677641C393 /* STPCheckoutWebViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = CF527DF16FDFCAF196705E62 /* STPCheckoutWebViewAdapter.h */; };
+		33319EF09075345A1A06186C /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3D34AE014380C9E5380E9A /* SDWebImageDownloaderOperation.h */; };
+		36381E4E569812F1771F75C7 /* PTKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3861291282F3B08B4A9E4 /* PTKCard.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		368040D85F147C2A1D1980A7 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 25335FE5D7E7C96A23FFE69B /* AFSecurityPolicy.h */; };
+		39BB94FC204D32280DCB2FBB /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677B2B81CA953BC6DA7EC7A /* PTKView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3C5A107918D6EB24CCB76717 /* PTKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6119292DBCAC3EC15758931D /* PTKView.h */; };
+		3CCC35AEB431CF4410DAACA4 /* PTKAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D835F11FE85DA90E6EEBA5B /* PTKAddressZip.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E49929D239F910731A1F8EA /* PTKCardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B699ADF1C090781224192 /* PTKCardNumber.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		40BAA6EF42BAB4BA2A7181BB /* Pods-AmigoDash-SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA004A2D15185E4BB06B4146 /* Pods-AmigoDash-SDWebImage-dummy.m */; };
+		4505A04BB36C50381BA9AF9B /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F4FBB683BA760902DDE3CC34 /* UIImageView+AFNetworking.h */; };
+		458D091378A9B00EC5A17ADD /* PTKComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = FD5905A6B835465B5253AC8B /* PTKComponent.h */; };
+		47D6D96548AFE5EBD4BD0240 /* STPStrictURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4287BD15FAD3837B0E7A16FA /* STPStrictURLProtocol.m */; };
+		49BADBBDD617E3BAE0B4DE15 /* STPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D95BE2DE61970FF102F85984 /* STPAPIClient.m */; };
+		4D4DA225FFB87D9EE84BA650 /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 210221DC74434288990DA7B2 /* PTKComponent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E5AA25C46A709A559C4ED0F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65CE455040CFAA1EFCC53BD2 /* ImageIO.framework */; };
+		4FA8D96616D68E8F71807562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE51D0F8E090A011B6DC41 /* Foundation.framework */; };
+		52CB46E1E5030989DC6C5B4A /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4041BE888AAB28638ADABD /* UIAlertView+AFNetworking.m */; };
+		5582CE707E750947CA91C2B5 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F851F88341F33E57481A999D /* SDWebImagePrefetcher.h */; };
+		577D34CF697CAF0BAEA23F49 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CA1003FAF44CDB782D1E2C /* AFSecurityPolicy.m */; };
+		5929F86CD5369AD5A1878BA4 /* STPBankAccount.h in Headers */ = {isa = PBXBuildFile; fileRef = C72502F8611B8426B65D5F07 /* STPBankAccount.h */; };
+		596CDF550D6BB2A42C963160 /* PTKUSAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2B2CA3EB8618A14E7510F2 /* PTKUSAddressZip.h */; };
+		5A2F6FB4176CB4DBE81C478A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE97973A0D41AA01599E32E /* AFNetworkReachabilityManager.m */; };
+		5D33296F04A6412DB7B0DB9C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C826EC50D935493731547 /* AFHTTPRequestOperationManager.m */; };
+		5ECCBA5CA1A2AD381D9270E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81070AD870DB42886D3A9709 /* CoreGraphics.framework */; };
+		5FA05D79BEA268328CCF032B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8783EAB2872EC0A7E11CE2 /* UIButton+AFNetworking.h */; };
+		64262B16AC8552C239A964E0 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 089D4507646B93D641C27FA4 /* PTKTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		649D641382B9C2DF5735CDF9 /* PTKCardExpiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DF886861E7E075553E7436 /* PTKCardExpiry.h */; };
+		68978F4CFB4247CA31C04D24 /* STPCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6329F10255E5DB3E40A02CB2 /* STPCard.h */; };
+		69C6433F6BB34DFFFA5DDF64 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0714393087A649654EDCCE /* AFHTTPRequestOperation.m */; };
+		6C5A84726B9BD390C175AE1D /* STPBankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = A621311A9CCAED6985330C5A /* STPBankAccount.m */; };
+		6D703F7BB084F413B7A03B53 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F116533B34FD6C2765A16803 /* AFNetworkActivityIndicatorManager.m */; };
+		74660F965DAB93D80396D8FE /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F9BF8225907D044919C56A /* UIAlertView+AFNetworking.h */; };
+		766D851CED4B4AC5059BE168 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE3E5FDAD655AAC7A09EBA5 /* UIImageView+WebCache.h */; };
+		769F544C3810E6CBE6624AAB /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC6ABDFE1589E925A157DE3 /* AFURLRequestSerialization.h */; };
+		77695B195196BBA09C3961B6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF32DE339926385561FDFA /* UIWebView+AFNetworking.m */; };
+		79AD6B485CC1CE03D7679419 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B4786D7BCFB2A0498152E322 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		79EB9CA792BA271A3F84E288 /* Stripe.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A6D90BBB19D1E02CB2D164 /* Stripe.h */; };
+		7A96F5F8215C3AB4511A484F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C4439D9B8AE5EF241169E /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7C596F09D9B1308E0F5277B9 /* STPFormEncoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CD2ED52B0FC69290C6CECB /* STPFormEncoder.h */; };
+		7DF8C497E2FE47BE114303B3 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5893A861F4BCE538839B9C0A /* AFURLResponseSerialization.h */; };
+		7E9C1C91D0853B770D3307BC /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8404D65B9F847A587B3F6C /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7FC24F9ED58798601935AC98 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D90C468BAD6D56505391A142 /* SDWebImageDownloader.h */; };
+		830B1F42DCFAE22FFDB32535 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A240EDCFB7F1FE08E53C440 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86A54B76590CBB3BB7FFAE68 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1619F2EE9FCF1A344AE9C /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		89AA19A2C80BFC9F239C72DD /* Pods-AmigoDash-Stripe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA3FDBD673EBE44BFB9F0A9 /* Pods-AmigoDash-Stripe-dummy.m */; };
+		8B0D31CEA0029E64F36FF3D4 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE042BD16DFB2DA800931A0D /* AFHTTPSessionManager.m */; };
+		8F183A1262216BC5549A2D4B /* STPIOSCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA900E87CF50AAAE9955C3E0 /* STPIOSCheckoutWebViewAdapter.m */; };
+		8FBC8869E78C67BCA04DCBAC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E3E39A0E0616E291B0A27D /* MobileCoreServices.framework */; };
+		92C2CD9E4E46EF5FD04A7CD8 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 27293099A0843FA1704B1EE3 /* NSData+ImageContentType.h */; };
+		9343161371C2429F69C69491 /* STPColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9E9541C0B3D90460EB7C33 /* STPColorUtils.m */; };
+		94ED793D6C390A75C9EF489B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E150E3977A2CE7055399FA3C /* AFURLResponseSerialization.m */; };
+		9722E4BB9E6CC97E2580398A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B2CEC73ACDC051CF9457E6 /* AFURLRequestSerialization.m */; };
+		97E16AFD7EDC3D79936AEBC5 /* PTKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C35F37EC6659D2AD3AE459 /* PTKTextField.h */; };
+		9B123CF54D380C86A8EE759F /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D555B02405A6685629BC879 /* UIImageView+HighlightedWebCache.h */; };
+		9D68143F5A9877C1C070D78A /* STPAPIConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C7EBEF011476DB001E4A554 /* STPAPIConnection.h */; };
+		9DC42EDDF4C491A32CB5D03C /* PTKCardCVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 346C927A0E12290A1202A3FB /* PTKCardCVC.h */; };
+		9DF380022A569DE4CF9AD522 /* PTKCardExpiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5660A50DCCBF430D96EA6 /* PTKCardExpiry.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4C63C6813F491274A194999 /* STPCheckoutInternalUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6056880E0A27B3649E9C0A22 /* STPCheckoutInternalUIWebViewController.m */; };
+		A6401EE7905471BCC5EFB89F /* STPOSXCheckoutWebViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B421B48C0BBCC2BFF47AF8E /* STPOSXCheckoutWebViewAdapter.m */; };
+		AAB89BDB34A01F5203EBCDAD /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ED3929E1BCEA022FCDB936 /* UIImageView+AFNetworking.m */; };
+		ABFE492076DFADC36496B82A /* STPCheckoutOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2FB83E7DFF3E1C782B3BD5 /* STPCheckoutOptions.m */; };
+		AC99785308C08756FD1B5516 /* STPAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAC38FD1F678338078B745 /* STPAPIConnection.m */; };
+		ACA9468CD39E92C1AAD49DB4 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DC1AC86C119008AE7AB990 /* UIView+WebCacheOperation.h */; };
+		AD6E37175543633D9AFC6CC8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8834B5311DE82AFEF7A1CB79 /* Security.framework */; };
+		AE09CA7B38997592459E0E94 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A42EAD62C0B377220F94F5 /* AFURLSessionManager.h */; };
+		B2104D5B0F9E9EFE69FC702B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE51D0F8E090A011B6DC41 /* Foundation.framework */; };
+		B471F2D54722107BB2DCE3B6 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 332BE41139BAC18EFC0BC852 /* AFHTTPRequestOperationManager.h */; };
+		B86A6FE5692BEA713C15CC37 /* PTKAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4658AECC1F05DD71738A0D /* PTKAddressZip.h */; };
+		B97C3871AEB6AD9132D41D79 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7156B1B3A82F1A9D98B9A825 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB245728F006ECA5EF749E7B /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A817E075F888DB5EB588DF7 /* SDWebImageCompat.h */; };
+		BB433F1DC508BD03426AA256 /* STPCheckoutInternalUIWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2B0E44024ED7048670EB5 /* STPCheckoutInternalUIWebViewController.h */; };
+		BD9C836B149B3DF072B07C71 /* STPAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D27C8B6180BC1A373E8386D6 /* STPAPIClient.h */; };
+		BE45B1C5ADEA50FF3A2BF17F /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 336889FAE97B9FB8075E0C1D /* UIImage+MultiFormat.h */; };
+		BF13FDBA47493793D1E6652A /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 7745619E309451A769C6E5C2 /* UIImage+GIF.h */; };
+		C1DDBC24689411B7A4DF96CD /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6E2CF424FAA79E7C8538A3 /* AFHTTPRequestOperation.h */; };
+		C44AA0D7B90F9DE367F63213 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCC8692E5061ABF1D94F504 /* AFNetworkReachabilityManager.h */; };
+		C92B1D8045119844E9D713AA /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAA0A0B6E43E040F31BD3CA /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D39425908A976D3CA61E51F1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D65871F4A2AF7F2065F4A657 /* AFURLSessionManager.m */; };
+		D52E5A2997FBC256F77EA088 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8416664C0AA1C7A9C08514EE /* SystemConfiguration.framework */; };
+		DBD97BE0AE421129BE2D6373 /* STPToken.h in Headers */ = {isa = PBXBuildFile; fileRef = C151D947AECAA5060DB91AFA /* STPToken.h */; };
+		E2E152AE667FE52C4D1C3863 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2B8DA595853FFDFA499111 /* UIActivityIndicatorView+AFNetworking.h */; };
+		E464F13E151FC9DB6CFC48E8 /* STPCheckoutOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8629910082BDCB3A99BC8CA3 /* STPCheckoutOptions.h */; };
+		E5266553FFFE1484222B4207 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 958D9C51B7F5D5E458A79D13 /* UIButton+WebCache.h */; };
+		E534DE954360E0C987A26321 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF556EADD41B4B198A898A97 /* AFHTTPSessionManager.h */; };
+		E636C64C4F9EBF147C4EFB97 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DF602FC3685E5DC61B1228 /* SDWebImageDecoder.h */; };
+		E860F671461BB04CF14A0C00 /* STPCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F9643E5E4E591C6C7509B9B8 /* STPCard.m */; };
+		EA667620A31374567B32D0B2 /* PTKCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D2CA5AFB91F93AE238A1FD3 /* PTKCardType.h */; };
+		EB250C28C42F84069E3B9747 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 918DBB7B9E95848624207FE2 /* SDWebImageManager.h */; };
+		ECA7EFA995FC4734E8E8B4F3 /* STPOSXCheckoutWebViewAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 384D7917AEF58634CA8E2D4B /* STPOSXCheckoutWebViewAdapter.h */; };
+		ED01E7FB6D1C12FBBFD489E8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B928C69A686F94E5A69E526 /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F11CA3960AF6440A26AA4546 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BDD7263AE8D07C12028A45 /* UIActivityIndicatorView+AFNetworking.m */; };
+		F3B43BDDB5B4A7E57E0B6F8C /* StripeError.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EAAFF37CB71996A87E6B17 /* StripeError.h */; };
+		F6ADE2B249B366E1825976A7 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC10B8C521C640EADCEDE30 /* AFNetworking.h */; };
+		F8DF9F0A275B8F8E4D483650 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A8D77BAD756755932C9420A8 /* SDWebImageOperation.h */; };
+		FDED0C9AE8DDF71CC0E9D89B /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F7281FE76DD3EC55A9F77A89 /* UIButton+AFNetworking.m */; };
+		FE776BFB28F12C7445DB88A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE51D0F8E090A011B6DC41 /* Foundation.framework */; };
+		FEE6406B749DAFF794D56055 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CE51D0F8E090A011B6DC41 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63728D387DF7264E5B410BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E55DEA9DC87BCF5DC7305F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA9CC49E33D156A238E4D26A;
+			remoteInfo = "Pods-AmigoDash-PaymentKit";
+		};
+		69BDBCC8533B074ECB6EF546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E55DEA9DC87BCF5DC7305F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C941A7519D279060800F1F2;
+			remoteInfo = "Pods-AmigoDash-SDWebImage";
+		};
+		74B05B481BFD0E1F8A2CFB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E55DEA9DC87BCF5DC7305F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B855737C325814AC54A66354;
+			remoteInfo = "Pods-AmigoDash-AFNetworking";
+		};
+		FC26A10FC5869E7752D291D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12E55DEA9DC87BCF5DC7305F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5C67F3B174A3A900304359;
+			remoteInfo = "Pods-AmigoDash-Stripe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0208D63388AAA6711653803C /* cvc-amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cvc-amex@2x.png"; path = "PaymentKit/Resources/Cards/cvc-amex@2x.png"; sourceTree = "<group>"; };
+		02461F4334A3A442A4E0FF9F /* libPods-AmigoDash-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmigoDash-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D115F7912DE1AF33FF1842 /* Pods-AmigoDash-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AmigoDash-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04FB19B8FF6D3B039D0392DA /* Pods-AmigoDash-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmigoDash-environment.h"; sourceTree = "<group>"; };
+		089D4507646B93D641C27FA4 /* PTKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKTextField.m; path = PaymentKit/PTKTextField.m; sourceTree = "<group>"; };
+		12F9BF8225907D044919C56A /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		13DAF2F3B78772AFBC167AC4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1C7EBEF011476DB001E4A554 /* STPAPIConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAPIConnection.h; path = Stripe/STPAPIConnection.h; sourceTree = "<group>"; };
+		1E86ED7CE8E380DCD3C4704B /* libPods-AmigoDash-PaymentKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmigoDash-PaymentKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA873BCD17408D9D1D9B4D2 /* discover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = discover.png; path = PaymentKit/Resources/Cards/discover.png; sourceTree = "<group>"; };
+		1FAAC38FD1F678338078B745 /* STPAPIConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAPIConnection.m; path = Stripe/STPAPIConnection.m; sourceTree = "<group>"; };
+		210221DC74434288990DA7B2 /* PTKComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKComponent.m; path = PaymentKit/PTKComponent.m; sourceTree = "<group>"; };
+		212F50A343394BB6DD1C0BC0 /* Pods-AmigoDash-SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmigoDash-SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		2195F4BAF15644EE9231415A /* STPCheckoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCheckoutDelegate.h; path = Stripe/Checkout/STPCheckoutDelegate.h; sourceTree = "<group>"; };
+		228A1A845622CE16EFC4EF4A /* mastercard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mastercard@2x.png"; path = "PaymentKit/Resources/Cards/mastercard@2x.png"; sourceTree = "<group>"; };
+		25335FE5D7E7C96A23FFE69B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		27293099A0843FA1704B1EE3 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		277C3971A720CD5923D16CDF /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		2A3E3BB3C4E54F4FC47CD1FB /* diners.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = diners.png; path = PaymentKit/Resources/Cards/diners.png; sourceTree = "<group>"; };
+		2B421B48C0BBCC2BFF47AF8E /* STPOSXCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPOSXCheckoutWebViewAdapter.m; path = Stripe/Checkout/STPOSXCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		2CBF32DE339926385561FDFA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		2DE97973A0D41AA01599E32E /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		332BE41139BAC18EFC0BC852 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		336889FAE97B9FB8075E0C1D /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		346C927A0E12290A1202A3FB /* PTKCardCVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKCardCVC.h; path = PaymentKit/PTKCardCVC.h; sourceTree = "<group>"; };
+		357B616FAB8615219D28FE68 /* cvc@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cvc@2x.png"; path = "PaymentKit/Resources/Cards/cvc@2x.png"; sourceTree = "<group>"; };
+		36A840B9A3CECEABF046419C /* Pods-AmigoDash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmigoDash-dummy.m"; sourceTree = "<group>"; };
+		37ABF76D0FF14F57E8A7E56F /* Pods-AmigoDash-SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-SDWebImage.xcconfig"; sourceTree = "<group>"; };
+		384D7917AEF58634CA8E2D4B /* STPOSXCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPOSXCheckoutWebViewAdapter.h; path = Stripe/Checkout/STPOSXCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		39AE2E584450197A2A53780F /* visa.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visa.png; path = PaymentKit/Resources/Cards/visa.png; sourceTree = "<group>"; };
+		3B089E53B4AC2304FB5A5ED4 /* jcb@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "jcb@2x.png"; path = "PaymentKit/Resources/Cards/jcb@2x.png"; sourceTree = "<group>"; };
+		3B221373562B70F37CC203B6 /* STPFormEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPFormEncoder.m; path = Stripe/STPFormEncoder.m; sourceTree = "<group>"; };
+		3B2B97220FF6CB847987D4E3 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		3B30F2F3E04C9BE19BC07DB2 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		3B928C69A686F94E5A69E526 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		3BA3FDBD673EBE44BFB9F0A9 /* Pods-AmigoDash-Stripe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmigoDash-Stripe-dummy.m"; sourceTree = "<group>"; };
+		3CA04995E41327F382A5D23B /* STPIOSCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPIOSCheckoutWebViewAdapter.h; path = Stripe/Checkout/STPIOSCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		3DB1619F2EE9FCF1A344AE9C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		3E8404D65B9F847A587B3F6C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		4287BD15FAD3837B0E7A16FA /* STPStrictURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPStrictURLProtocol.m; path = Stripe/Checkout/STPStrictURLProtocol.m; sourceTree = "<group>"; };
+		43942698D30FA0445B913F3F /* mastercard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = mastercard.png; path = PaymentKit/Resources/Cards/mastercard.png; sourceTree = "<group>"; };
+		45E484C347FBDB2D339FE9C9 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		4677B2B81CA953BC6DA7EC7A /* PTKView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKView.m; path = PaymentKit/PTKView.m; sourceTree = "<group>"; };
+		47B2CEC73ACDC051CF9457E6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		47D44A1692ED10F80B0947C5 /* Pods-AmigoDash-Stripe.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-Stripe.xcconfig"; sourceTree = "<group>"; };
+		49D2B0E44024ED7048670EB5 /* STPCheckoutInternalUIWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCheckoutInternalUIWebViewController.h; path = Stripe/Checkout/STPCheckoutInternalUIWebViewController.h; sourceTree = "<group>"; };
+		4A240EDCFB7F1FE08E53C440 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		4AC6ABDFE1589E925A157DE3 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		4EF3861291282F3B08B4A9E4 /* PTKCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKCard.m; path = PaymentKit/PTKCard.m; sourceTree = "<group>"; };
+		557236B9E383F3B62C67E17E /* visa@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visa@2x.png"; path = "PaymentKit/Resources/Cards/visa@2x.png"; sourceTree = "<group>"; };
+		57DF602FC3685E5DC61B1228 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		5893A861F4BCE538839B9C0A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		5B73C8FEA15F4606FCC8CA9E /* gradient@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "gradient@2x.png"; path = "PaymentKit/Resources/gradient@2x.png"; sourceTree = "<group>"; };
+		5C919628F0600E5F3DE47D2A /* PTKCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKCard.h; path = PaymentKit/PTKCard.h; sourceTree = "<group>"; };
+		5D4D90EDB0DF8D5D35A93028 /* STPColorUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPColorUtils.h; path = Stripe/Checkout/STPColorUtils.h; sourceTree = "<group>"; };
+		5D5A82550A3A3B363346D7A7 /* textfield@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "textfield@2x.png"; path = "PaymentKit/Resources/textfield@2x.png"; sourceTree = "<group>"; };
+		5E35F889FB0692CAF7E97C5E /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		6056880E0A27B3649E9C0A22 /* STPCheckoutInternalUIWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCheckoutInternalUIWebViewController.m; path = Stripe/Checkout/STPCheckoutInternalUIWebViewController.m; sourceTree = "<group>"; };
+		60CA1003FAF44CDB782D1E2C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		6119292DBCAC3EC15758931D /* PTKView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKView.h; path = PaymentKit/PTKView.h; sourceTree = "<group>"; };
+		616DF41DB9016D7EFDCA94C3 /* textfield.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = textfield.png; path = PaymentKit/Resources/textfield.png; sourceTree = "<group>"; };
+		6329F10255E5DB3E40A02CB2 /* STPCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCard.h; path = Stripe/PublicHeaders/STPCard.h; sourceTree = "<group>"; };
+		63347C64F6682C4982C130CE /* Pods-AmigoDash-PaymentKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-PaymentKit-Private.xcconfig"; sourceTree = "<group>"; };
+		64044012888CF8B9FF383252 /* libPods-AmigoDash-Stripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmigoDash-Stripe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		642551577DDAB8F3C524DA63 /* Pods-AmigoDash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash.release.xcconfig"; sourceTree = "<group>"; };
+		65CE455040CFAA1EFCC53BD2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		65E3E39A0E0616E291B0A27D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		684536D12AC12346D496E472 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6B389B814F820D8DFC8E9D2A /* libPods-AmigoDash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmigoDash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBD099A2FF158FB281DB3DA /* Pods-AmigoDash-Stripe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmigoDash-Stripe-prefix.pch"; sourceTree = "<group>"; };
+		6C2B2EFF7E4870F5B823DAD4 /* libPods-AmigoDash-SDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AmigoDash-SDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C86C2FC5E1FE2106B54BC60 /* STPCheckoutViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCheckoutViewController.m; path = Stripe/Checkout/STPCheckoutViewController.m; sourceTree = "<group>"; };
+		6D2CA5AFB91F93AE238A1FD3 /* PTKCardType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKCardType.h; path = PaymentKit/PTKCardType.h; sourceTree = "<group>"; };
+		6E2FB83E7DFF3E1C782B3BD5 /* STPCheckoutOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCheckoutOptions.m; path = Stripe/Checkout/STPCheckoutOptions.m; sourceTree = "<group>"; };
+		6F8B9BB4162A1DE2B8072218 /* Pods-AmigoDash-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmigoDash-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		6FDA7C37F3290F63DA2BD06C /* jcb.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jcb.png; path = PaymentKit/Resources/Cards/jcb.png; sourceTree = "<group>"; };
+		70F5660A50DCCBF430D96EA6 /* PTKCardExpiry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKCardExpiry.m; path = PaymentKit/PTKCardExpiry.m; sourceTree = "<group>"; };
+		7156B1B3A82F1A9D98B9A825 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		719CC1A269F79491B1E01620 /* StripeError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StripeError.m; path = Stripe/StripeError.m; sourceTree = "<group>"; };
+		73065333DB917CAF1C9E4FC2 /* PTKUSAddressZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKUSAddressZip.m; path = PaymentKit/PTKUSAddressZip.m; sourceTree = "<group>"; };
+		760C4439D9B8AE5EF241169E /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		76FE3940289702BE9E69D9EC /* Pods-AmigoDash-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmigoDash-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		7745619E309451A769C6E5C2 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		787713BAD7BA283BF9E3A6BA /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		791C826EC50D935493731547 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		795B96AB119B14C5B349FC7F /* Pods-AmigoDash-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		7A817E075F888DB5EB588DF7 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		7B6E2CF424FAA79E7C8538A3 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		7CCE8057F094120DC3C49EE3 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		7D2B8DA595853FFDFA499111 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		7D835F11FE85DA90E6EEBA5B /* PTKAddressZip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKAddressZip.m; path = PaymentKit/PTKAddressZip.m; sourceTree = "<group>"; };
+		7F0714393087A649654EDCCE /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		81070AD870DB42886D3A9709 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		81456EF8C387D03AB9275DB4 /* amex@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "amex@2x.png"; path = "PaymentKit/Resources/Cards/amex@2x.png"; sourceTree = "<group>"; };
+		82B7CCBAFF68C103860C0EA0 /* Pods-AmigoDash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash.debug.xcconfig"; sourceTree = "<group>"; };
+		82DF886861E7E075553E7436 /* PTKCardExpiry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKCardExpiry.h; path = PaymentKit/PTKCardExpiry.h; sourceTree = "<group>"; };
+		83AEF0BCF6E2C2479492B0F1 /* Pods-AmigoDash-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AmigoDash-resources.sh"; sourceTree = "<group>"; };
+		8416664C0AA1C7A9C08514EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8629910082BDCB3A99BC8CA3 /* STPCheckoutOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCheckoutOptions.h; path = Stripe/PublicHeaders/Checkout/STPCheckoutOptions.h; sourceTree = "<group>"; };
+		8834B5311DE82AFEF7A1CB79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8A4041BE888AAB28638ADABD /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		8C1BF23E22B3BCF7F06F6849 /* PTKCardCVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKCardCVC.m; path = PaymentKit/PTKCardCVC.m; sourceTree = "<group>"; };
+		906389D444A2893FA9A899CE /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		90CE51D0F8E090A011B6DC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		918DBB7B9E95848624207FE2 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		91EAAFF37CB71996A87E6B17 /* StripeError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StripeError.h; path = Stripe/PublicHeaders/StripeError.h; sourceTree = "<group>"; };
+		958D9C51B7F5D5E458A79D13 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		95BDD7263AE8D07C12028A45 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		95C35F37EC6659D2AD3AE459 /* PTKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKTextField.h; path = PaymentKit/PTKTextField.h; sourceTree = "<group>"; };
+		95FCF929166481724810E48F /* STPToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPToken.m; path = Stripe/STPToken.m; sourceTree = "<group>"; };
+		97ECB12D0FAFB91F9D11F537 /* Pods-AmigoDash-PaymentKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmigoDash-PaymentKit-dummy.m"; sourceTree = "<group>"; };
+		9C3D34AE014380C9E5380E9A /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		9D555B02405A6685629BC879 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		9F8B699ADF1C090781224192 /* PTKCardNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKCardNumber.m; path = PaymentKit/PTKCardNumber.m; sourceTree = "<group>"; };
+		A0396422412DB36238FC2388 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		A3ED3929E1BCEA022FCDB936 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A52BC32163F857C7BDC4CA8E /* cvc-amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cvc-amex.png"; path = "PaymentKit/Resources/Cards/cvc-amex.png"; sourceTree = "<group>"; };
+		A621311A9CCAED6985330C5A /* STPBankAccount.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPBankAccount.m; path = Stripe/STPBankAccount.m; sourceTree = "<group>"; };
+		A73A5BB0D55652B41EB7935F /* Pods-AmigoDash-PaymentKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-PaymentKit.xcconfig"; sourceTree = "<group>"; };
+		A8D77BAD756755932C9420A8 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		AAC10B8C521C640EADCEDE30 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		AF4C08C0D487B19882789134 /* Pods-AmigoDash-SDWebImage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-SDWebImage-Private.xcconfig"; sourceTree = "<group>"; };
+		B164FE9E60061B82D3954D0C /* STPCheckoutViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCheckoutViewController.h; path = Stripe/PublicHeaders/Checkout/STPCheckoutViewController.h; sourceTree = "<group>"; };
+		B4786D7BCFB2A0498152E322 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		B4B2679A53C403A21F5AD8C0 /* cvc.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = cvc.png; path = PaymentKit/Resources/Cards/cvc.png; sourceTree = "<group>"; };
+		B55D4A4F47A630B56434143F /* placeholder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "placeholder@2x.png"; path = "PaymentKit/Resources/Cards/placeholder@2x.png"; sourceTree = "<group>"; };
+		BA5ECDE4F47A05DEEF4A9B19 /* STPStrictURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPStrictURLProtocol.h; path = Stripe/Checkout/STPStrictURLProtocol.h; sourceTree = "<group>"; };
+		BB4658AECC1F05DD71738A0D /* PTKAddressZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKAddressZip.h; path = PaymentKit/PTKAddressZip.h; sourceTree = "<group>"; };
+		BB74581EC371406722DBC198 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		BF8783EAB2872EC0A7E11CE2 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		C151D947AECAA5060DB91AFA /* STPToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPToken.h; path = Stripe/PublicHeaders/STPToken.h; sourceTree = "<group>"; };
+		C1E332D2D6C7D9FF3875B62E /* Pods-AmigoDash-PaymentKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AmigoDash-PaymentKit-prefix.pch"; sourceTree = "<group>"; };
+		C5B53125FAB13F40FD9B3D4A /* PTKCardNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKCardNumber.h; path = PaymentKit/PTKCardNumber.h; sourceTree = "<group>"; };
+		C72502F8611B8426B65D5F07 /* STPBankAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPBankAccount.h; path = Stripe/PublicHeaders/STPBankAccount.h; sourceTree = "<group>"; };
+		C9C1279EC1EDBAAAEB45EC07 /* discover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "discover@2x.png"; path = "PaymentKit/Resources/Cards/discover@2x.png"; sourceTree = "<group>"; };
+		CBE3E5FDAD655AAC7A09EBA5 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		CCCC8692E5061ABF1D94F504 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CCCD9F5B11191A72179D50C0 /* Pods-AmigoDash-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		CE042BD16DFB2DA800931A0D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CF527DF16FDFCAF196705E62 /* STPCheckoutWebViewAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPCheckoutWebViewAdapter.h; path = Stripe/Checkout/STPCheckoutWebViewAdapter.h; sourceTree = "<group>"; };
+		D0CD2ED52B0FC69290C6CECB /* STPFormEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPFormEncoder.h; path = Stripe/STPFormEncoder.h; sourceTree = "<group>"; };
+		D20E462B7B804581D4C87B94 /* Pods-AmigoDash-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AmigoDash-acknowledgements.plist"; sourceTree = "<group>"; };
+		D27C8B6180BC1A373E8386D6 /* STPAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPAPIClient.h; path = Stripe/PublicHeaders/STPAPIClient.h; sourceTree = "<group>"; };
+		D458327FD1518F8D1CC2DBA1 /* placeholder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = placeholder.png; path = PaymentKit/Resources/Cards/placeholder.png; sourceTree = "<group>"; };
+		D4A1CFA63FA7E9618FBB1B47 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		D65871F4A2AF7F2065F4A657 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		D90C468BAD6D56505391A142 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		D95BE2DE61970FF102F85984 /* STPAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPAPIClient.m; path = Stripe/STPAPIClient.m; sourceTree = "<group>"; };
+		D9CBBDEFBAFEBFC1717F94E1 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		DA900E87CF50AAAE9955C3E0 /* STPIOSCheckoutWebViewAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPIOSCheckoutWebViewAdapter.m; path = Stripe/Checkout/STPIOSCheckoutWebViewAdapter.m; sourceTree = "<group>"; };
+		DC04878447A0060DC418EBB3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC2B2CA3EB8618A14E7510F2 /* PTKUSAddressZip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKUSAddressZip.h; path = PaymentKit/PTKUSAddressZip.h; sourceTree = "<group>"; };
+		DDAA0A0B6E43E040F31BD3CA /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		DF556EADD41B4B198A898A97 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DF9E9541C0B3D90460EB7C33 /* STPColorUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPColorUtils.m; path = Stripe/Checkout/STPColorUtils.m; sourceTree = "<group>"; };
+		E150E3977A2CE7055399FA3C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		E5FC5DDC7397FEEE1A95BAB2 /* STPNullabilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STPNullabilityMacros.h; path = Stripe/PublicHeaders/STPNullabilityMacros.h; sourceTree = "<group>"; };
+		E6860A35023B86EC5EDE835E /* Pods-AmigoDash-Stripe-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AmigoDash-Stripe-Private.xcconfig"; sourceTree = "<group>"; };
+		E95505E5E3A480A2A6BDD607 /* diners@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "diners@2x.png"; path = "PaymentKit/Resources/Cards/diners@2x.png"; sourceTree = "<group>"; };
+		F116533B34FD6C2765A16803 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		F3A42EAD62C0B377220F94F5 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		F4A6D90BBB19D1E02CB2D164 /* Stripe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Stripe.h; path = Stripe/PublicHeaders/Stripe.h; sourceTree = "<group>"; };
+		F4DC1AC86C119008AE7AB990 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		F4FBB683BA760902DDE3CC34 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F7281FE76DD3EC55A9F77A89 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		F74619E6B959498F6C7E88A6 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F7E40018E79861E72AD3B89E /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		F851F88341F33E57481A999D /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		F9643E5E4E591C6C7509B9B8 /* STPCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STPCard.m; path = Stripe/STPCard.m; sourceTree = "<group>"; };
+		FA004A2D15185E4BB06B4146 /* Pods-AmigoDash-SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AmigoDash-SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		FBF9B57F3072B82340134CE9 /* amex.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = amex.png; path = PaymentKit/Resources/Cards/amex.png; sourceTree = "<group>"; };
+		FD5905A6B835465B5253AC8B /* PTKComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKComponent.h; path = PaymentKit/PTKComponent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		097985E9FD4094753E09A916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECCBA5CA1A2AD381D9270E2 /* CoreGraphics.framework in Frameworks */,
+				4FA8D96616D68E8F71807562 /* Foundation.framework in Frameworks */,
+				8FBC8869E78C67BCA04DCBAC /* MobileCoreServices.framework in Frameworks */,
+				002D33C57CD4313E8118ADB1 /* Security.framework in Frameworks */,
+				D52E5A2997FBC256F77EA088 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35C2D55F35C4BEF5E9AA3AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2104D5B0F9E9EFE69FC702B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D48E84DD559FD0B00889E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE6406B749DAFF794D56055 /* Foundation.framework in Frameworks */,
+				AD6E37175543633D9AFC6CC8 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846714E080B34DA39EE1B7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003800E7753AE78FD719E7EA /* Foundation.framework in Frameworks */,
+				4E5AA25C46A709A559C4ED0F /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCAE57716AA8AAE540C69C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE776BFB28F12C7445DB88A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF0AD7E8BA03DAC0A3DB936 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7CCE8057F094120DC3C49EE3 /* AFNetworkActivityIndicatorManager.h */,
+				F116533B34FD6C2765A16803 /* AFNetworkActivityIndicatorManager.m */,
+				7D2B8DA595853FFDFA499111 /* UIActivityIndicatorView+AFNetworking.h */,
+				95BDD7263AE8D07C12028A45 /* UIActivityIndicatorView+AFNetworking.m */,
+				12F9BF8225907D044919C56A /* UIAlertView+AFNetworking.h */,
+				8A4041BE888AAB28638ADABD /* UIAlertView+AFNetworking.m */,
+				BF8783EAB2872EC0A7E11CE2 /* UIButton+AFNetworking.h */,
+				F7281FE76DD3EC55A9F77A89 /* UIButton+AFNetworking.m */,
+				F4FBB683BA760902DDE3CC34 /* UIImageView+AFNetworking.h */,
+				A3ED3929E1BCEA022FCDB936 /* UIImageView+AFNetworking.m */,
+				F7E40018E79861E72AD3B89E /* UIKit+AFNetworking.h */,
+				45E484C347FBDB2D339FE9C9 /* UIProgressView+AFNetworking.h */,
+				D4A1CFA63FA7E9618FBB1B47 /* UIProgressView+AFNetworking.m */,
+				787713BAD7BA283BF9E3A6BA /* UIRefreshControl+AFNetworking.h */,
+				3B30F2F3E04C9BE19BC07DB2 /* UIRefreshControl+AFNetworking.m */,
+				D9CBBDEFBAFEBFC1717F94E1 /* UIWebView+AFNetworking.h */,
+				2CBF32DE339926385561FDFA /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		1933A7E21C2B55830B4009DF /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				2195F4BAF15644EE9231415A /* STPCheckoutDelegate.h */,
+				49D2B0E44024ED7048670EB5 /* STPCheckoutInternalUIWebViewController.h */,
+				6056880E0A27B3649E9C0A22 /* STPCheckoutInternalUIWebViewController.m */,
+				8629910082BDCB3A99BC8CA3 /* STPCheckoutOptions.h */,
+				6E2FB83E7DFF3E1C782B3BD5 /* STPCheckoutOptions.m */,
+				B164FE9E60061B82D3954D0C /* STPCheckoutViewController.h */,
+				6C86C2FC5E1FE2106B54BC60 /* STPCheckoutViewController.m */,
+				CF527DF16FDFCAF196705E62 /* STPCheckoutWebViewAdapter.h */,
+				5D4D90EDB0DF8D5D35A93028 /* STPColorUtils.h */,
+				DF9E9541C0B3D90460EB7C33 /* STPColorUtils.m */,
+				3CA04995E41327F382A5D23B /* STPIOSCheckoutWebViewAdapter.h */,
+				DA900E87CF50AAAE9955C3E0 /* STPIOSCheckoutWebViewAdapter.m */,
+				384D7917AEF58634CA8E2D4B /* STPOSXCheckoutWebViewAdapter.h */,
+				2B421B48C0BBCC2BFF47AF8E /* STPOSXCheckoutWebViewAdapter.m */,
+				BA5ECDE4F47A05DEEF4A9B19 /* STPStrictURLProtocol.h */,
+				4287BD15FAD3837B0E7A16FA /* STPStrictURLProtocol.m */,
+			);
+			name = Checkout;
+			sourceTree = "<group>";
+		};
+		20473A174AF142D3C9A7F30A /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD8947597B966D5D713FBC /* Core */,
+				9EA96A5D487331E7601AE713 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		25F8384CB700770302968349 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D27C8B6180BC1A373E8386D6 /* STPAPIClient.h */,
+				D95BE2DE61970FF102F85984 /* STPAPIClient.m */,
+				1C7EBEF011476DB001E4A554 /* STPAPIConnection.h */,
+				1FAAC38FD1F678338078B745 /* STPAPIConnection.m */,
+				C72502F8611B8426B65D5F07 /* STPBankAccount.h */,
+				A621311A9CCAED6985330C5A /* STPBankAccount.m */,
+				6329F10255E5DB3E40A02CB2 /* STPCard.h */,
+				F9643E5E4E591C6C7509B9B8 /* STPCard.m */,
+				D0CD2ED52B0FC69290C6CECB /* STPFormEncoder.h */,
+				3B221373562B70F37CC203B6 /* STPFormEncoder.m */,
+				E5FC5DDC7397FEEE1A95BAB2 /* STPNullabilityMacros.h */,
+				C151D947AECAA5060DB91AFA /* STPToken.h */,
+				95FCF929166481724810E48F /* STPToken.m */,
+				F4A6D90BBB19D1E02CB2D164 /* Stripe.h */,
+				91EAAFF37CB71996A87E6B17 /* StripeError.h */,
+				719CC1A269F79491B1E01620 /* StripeError.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		2CEAC7E2DBD5799EC42913CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				795B96AB119B14C5B349FC7F /* Pods-AmigoDash-AFNetworking.xcconfig */,
+				CCCD9F5B11191A72179D50C0 /* Pods-AmigoDash-AFNetworking-Private.xcconfig */,
+				76FE3940289702BE9E69D9EC /* Pods-AmigoDash-AFNetworking-dummy.m */,
+				6F8B9BB4162A1DE2B8072218 /* Pods-AmigoDash-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AmigoDash-AFNetworking";
+			sourceTree = "<group>";
+		};
+		459D46A13DFF555F9AE5287D = {
+			isa = PBXGroup;
+			children = (
+				DC04878447A0060DC418EBB3 /* Podfile */,
+				D13462A46AF561C139459AAC /* Frameworks */,
+				94DDCC57DFB685B4EB984E82 /* Pods */,
+				8AB90AEF9576420F824B15EB /* Products */,
+				9B22B3D7514CF73039D8698B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		49ECEE9620803A8BFEB3864D /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				DF556EADD41B4B198A898A97 /* AFHTTPSessionManager.h */,
+				CE042BD16DFB2DA800931A0D /* AFHTTPSessionManager.m */,
+				F3A42EAD62C0B377220F94F5 /* AFURLSessionManager.h */,
+				D65871F4A2AF7F2065F4A657 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		4A9C47B5A6F5031FB7D311FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9B57F3072B82340134CE9 /* amex.png */,
+				81456EF8C387D03AB9275DB4 /* amex@2x.png */,
+				B4B2679A53C403A21F5AD8C0 /* cvc.png */,
+				A52BC32163F857C7BDC4CA8E /* cvc-amex.png */,
+				0208D63388AAA6711653803C /* cvc-amex@2x.png */,
+				357B616FAB8615219D28FE68 /* cvc@2x.png */,
+				2A3E3BB3C4E54F4FC47CD1FB /* diners.png */,
+				E95505E5E3A480A2A6BDD607 /* diners@2x.png */,
+				1EA873BCD17408D9D1D9B4D2 /* discover.png */,
+				C9C1279EC1EDBAAAEB45EC07 /* discover@2x.png */,
+				5B73C8FEA15F4606FCC8CA9E /* gradient@2x.png */,
+				6FDA7C37F3290F63DA2BD06C /* jcb.png */,
+				3B089E53B4AC2304FB5A5ED4 /* jcb@2x.png */,
+				43942698D30FA0445B913F3F /* mastercard.png */,
+				228A1A845622CE16EFC4EF4A /* mastercard@2x.png */,
+				D458327FD1518F8D1CC2DBA1 /* placeholder.png */,
+				B55D4A4F47A630B56434143F /* placeholder@2x.png */,
+				616DF41DB9016D7EFDCA94C3 /* textfield.png */,
+				5D5A82550A3A3B363346D7A7 /* textfield@2x.png */,
+				39AE2E584450197A2A53780F /* visa.png */,
+				557236B9E383F3B62C67E17E /* visa@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4EAA802CD8BCE7326D03E27B /* PaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB4658AECC1F05DD71738A0D /* PTKAddressZip.h */,
+				7D835F11FE85DA90E6EEBA5B /* PTKAddressZip.m */,
+				5C919628F0600E5F3DE47D2A /* PTKCard.h */,
+				4EF3861291282F3B08B4A9E4 /* PTKCard.m */,
+				346C927A0E12290A1202A3FB /* PTKCardCVC.h */,
+				8C1BF23E22B3BCF7F06F6849 /* PTKCardCVC.m */,
+				82DF886861E7E075553E7436 /* PTKCardExpiry.h */,
+				70F5660A50DCCBF430D96EA6 /* PTKCardExpiry.m */,
+				C5B53125FAB13F40FD9B3D4A /* PTKCardNumber.h */,
+				9F8B699ADF1C090781224192 /* PTKCardNumber.m */,
+				6D2CA5AFB91F93AE238A1FD3 /* PTKCardType.h */,
+				FD5905A6B835465B5253AC8B /* PTKComponent.h */,
+				210221DC74434288990DA7B2 /* PTKComponent.m */,
+				95C35F37EC6659D2AD3AE459 /* PTKTextField.h */,
+				089D4507646B93D641C27FA4 /* PTKTextField.m */,
+				DC2B2CA3EB8618A14E7510F2 /* PTKUSAddressZip.h */,
+				73065333DB917CAF1C9E4FC2 /* PTKUSAddressZip.m */,
+				6119292DBCAC3EC15758931D /* PTKView.h */,
+				4677B2B81CA953BC6DA7EC7A /* PTKView.m */,
+				4A9C47B5A6F5031FB7D311FC /* Resources */,
+				BB35764B59ABA98931AEC730 /* Support Files */,
+			);
+			path = PaymentKit;
+			sourceTree = "<group>";
+		};
+		5A310470BAE29AB53AA8B7F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D44A1692ED10F80B0947C5 /* Pods-AmigoDash-Stripe.xcconfig */,
+				E6860A35023B86EC5EDE835E /* Pods-AmigoDash-Stripe-Private.xcconfig */,
+				3BA3FDBD673EBE44BFB9F0A9 /* Pods-AmigoDash-Stripe-dummy.m */,
+				6BBD099A2FF158FB281DB3DA /* Pods-AmigoDash-Stripe-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AmigoDash-Stripe";
+			sourceTree = "<group>";
+		};
+		8AB90AEF9576420F824B15EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B389B814F820D8DFC8E9D2A /* libPods-AmigoDash.a */,
+				02461F4334A3A442A4E0FF9F /* libPods-AmigoDash-AFNetworking.a */,
+				1E86ED7CE8E380DCD3C4704B /* libPods-AmigoDash-PaymentKit.a */,
+				6C2B2EFF7E4870F5B823DAD4 /* libPods-AmigoDash-SDWebImage.a */,
+				64044012888CF8B9FF383252 /* libPods-AmigoDash-Stripe.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DDCC57DFB685B4EB984E82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB9B3197ED96A5124F0FFE7 /* AFNetworking */,
+				4EAA802CD8BCE7326D03E27B /* PaymentKit */,
+				20473A174AF142D3C9A7F30A /* SDWebImage */,
+				F5DF79495B5E9E49F825EDAF /* Stripe */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		972591F1D48382AB90A1D176 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				7B6E2CF424FAA79E7C8538A3 /* AFHTTPRequestOperation.h */,
+				7F0714393087A649654EDCCE /* AFHTTPRequestOperation.m */,
+				332BE41139BAC18EFC0BC852 /* AFHTTPRequestOperationManager.h */,
+				791C826EC50D935493731547 /* AFHTTPRequestOperationManager.m */,
+				F74619E6B959498F6C7E88A6 /* AFURLConnectionOperation.h */,
+				684536D12AC12346D496E472 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		9B22B3D7514CF73039D8698B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F405CDF2D90035D393E0FCC6 /* Pods-AmigoDash */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9EA96A5D487331E7601AE713 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37ABF76D0FF14F57E8A7E56F /* Pods-AmigoDash-SDWebImage.xcconfig */,
+				AF4C08C0D487B19882789134 /* Pods-AmigoDash-SDWebImage-Private.xcconfig */,
+				FA004A2D15185E4BB06B4146 /* Pods-AmigoDash-SDWebImage-dummy.m */,
+				212F50A343394BB6DD1C0BC0 /* Pods-AmigoDash-SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AmigoDash-SDWebImage";
+			sourceTree = "<group>";
+		};
+		A7FD8947597B966D5D713FBC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				27293099A0843FA1704B1EE3 /* NSData+ImageContentType.h */,
+				5E35F889FB0692CAF7E97C5E /* NSData+ImageContentType.m */,
+				906389D444A2893FA9A899CE /* SDImageCache.h */,
+				BB74581EC371406722DBC198 /* SDImageCache.m */,
+				7A817E075F888DB5EB588DF7 /* SDWebImageCompat.h */,
+				B4786D7BCFB2A0498152E322 /* SDWebImageCompat.m */,
+				57DF602FC3685E5DC61B1228 /* SDWebImageDecoder.h */,
+				13DAF2F3B78772AFBC167AC4 /* SDWebImageDecoder.m */,
+				D90C468BAD6D56505391A142 /* SDWebImageDownloader.h */,
+				7156B1B3A82F1A9D98B9A825 /* SDWebImageDownloader.m */,
+				9C3D34AE014380C9E5380E9A /* SDWebImageDownloaderOperation.h */,
+				3DB1619F2EE9FCF1A344AE9C /* SDWebImageDownloaderOperation.m */,
+				918DBB7B9E95848624207FE2 /* SDWebImageManager.h */,
+				277C3971A720CD5923D16CDF /* SDWebImageManager.m */,
+				A8D77BAD756755932C9420A8 /* SDWebImageOperation.h */,
+				F851F88341F33E57481A999D /* SDWebImagePrefetcher.h */,
+				4A240EDCFB7F1FE08E53C440 /* SDWebImagePrefetcher.m */,
+				958D9C51B7F5D5E458A79D13 /* UIButton+WebCache.h */,
+				3B2B97220FF6CB847987D4E3 /* UIButton+WebCache.m */,
+				7745619E309451A769C6E5C2 /* UIImage+GIF.h */,
+				3B928C69A686F94E5A69E526 /* UIImage+GIF.m */,
+				336889FAE97B9FB8075E0C1D /* UIImage+MultiFormat.h */,
+				760C4439D9B8AE5EF241169E /* UIImage+MultiFormat.m */,
+				9D555B02405A6685629BC879 /* UIImageView+HighlightedWebCache.h */,
+				A0396422412DB36238FC2388 /* UIImageView+HighlightedWebCache.m */,
+				CBE3E5FDAD655AAC7A09EBA5 /* UIImageView+WebCache.h */,
+				3E8404D65B9F847A587B3F6C /* UIImageView+WebCache.m */,
+				F4DC1AC86C119008AE7AB990 /* UIView+WebCacheOperation.h */,
+				DDAA0A0B6E43E040F31BD3CA /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AA12726447CBA696785C3622 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				25335FE5D7E7C96A23FFE69B /* AFSecurityPolicy.h */,
+				60CA1003FAF44CDB782D1E2C /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		AB5334508DFAE4586613E755 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				81070AD870DB42886D3A9709 /* CoreGraphics.framework */,
+				90CE51D0F8E090A011B6DC41 /* Foundation.framework */,
+				65CE455040CFAA1EFCC53BD2 /* ImageIO.framework */,
+				65E3E39A0E0616E291B0A27D /* MobileCoreServices.framework */,
+				8834B5311DE82AFEF7A1CB79 /* Security.framework */,
+				8416664C0AA1C7A9C08514EE /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B22DC4F73E07BFAC7DDF385F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC8692E5061ABF1D94F504 /* AFNetworkReachabilityManager.h */,
+				2DE97973A0D41AA01599E32E /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		BB35764B59ABA98931AEC730 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73A5BB0D55652B41EB7935F /* Pods-AmigoDash-PaymentKit.xcconfig */,
+				63347C64F6682C4982C130CE /* Pods-AmigoDash-PaymentKit-Private.xcconfig */,
+				97ECB12D0FAFB91F9D11F537 /* Pods-AmigoDash-PaymentKit-dummy.m */,
+				C1E332D2D6C7D9FF3875B62E /* Pods-AmigoDash-PaymentKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AmigoDash-PaymentKit";
+			sourceTree = "<group>";
+		};
+		CFB9B3197ED96A5124F0FFE7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AAC10B8C521C640EADCEDE30 /* AFNetworking.h */,
+				972591F1D48382AB90A1D176 /* NSURLConnection */,
+				49ECEE9620803A8BFEB3864D /* NSURLSession */,
+				B22DC4F73E07BFAC7DDF385F /* Reachability */,
+				AA12726447CBA696785C3622 /* Security */,
+				E824DAA8F8A979BD75588699 /* Serialization */,
+				2CEAC7E2DBD5799EC42913CA /* Support Files */,
+				0BF0AD7E8BA03DAC0A3DB936 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		D13462A46AF561C139459AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB5334508DFAE4586613E755 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E824DAA8F8A979BD75588699 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6ABDFE1589E925A157DE3 /* AFURLRequestSerialization.h */,
+				47B2CEC73ACDC051CF9457E6 /* AFURLRequestSerialization.m */,
+				5893A861F4BCE538839B9C0A /* AFURLResponseSerialization.h */,
+				E150E3977A2CE7055399FA3C /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		F405CDF2D90035D393E0FCC6 /* Pods-AmigoDash */ = {
+			isa = PBXGroup;
+			children = (
+				03D115F7912DE1AF33FF1842 /* Pods-AmigoDash-acknowledgements.markdown */,
+				D20E462B7B804581D4C87B94 /* Pods-AmigoDash-acknowledgements.plist */,
+				36A840B9A3CECEABF046419C /* Pods-AmigoDash-dummy.m */,
+				04FB19B8FF6D3B039D0392DA /* Pods-AmigoDash-environment.h */,
+				83AEF0BCF6E2C2479492B0F1 /* Pods-AmigoDash-resources.sh */,
+				82B7CCBAFF68C103860C0EA0 /* Pods-AmigoDash.debug.xcconfig */,
+				642551577DDAB8F3C524DA63 /* Pods-AmigoDash.release.xcconfig */,
+			);
+			name = "Pods-AmigoDash";
+			path = "Target Support Files/Pods-AmigoDash";
+			sourceTree = "<group>";
+		};
+		F5DF79495B5E9E49F825EDAF /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				1933A7E21C2B55830B4009DF /* Checkout */,
+				25F8384CB700770302968349 /* Core */,
+				5A310470BAE29AB53AA8B7F3 /* Support Files */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187B112C80B295BE9EA3DEBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C2CD9E4E46EF5FD04A7CD8 /* NSData+ImageContentType.h in Headers */,
+				0533AC7B8FB5BBF632F432E1 /* SDImageCache.h in Headers */,
+				BB245728F006ECA5EF749E7B /* SDWebImageCompat.h in Headers */,
+				E636C64C4F9EBF147C4EFB97 /* SDWebImageDecoder.h in Headers */,
+				7FC24F9ED58798601935AC98 /* SDWebImageDownloader.h in Headers */,
+				33319EF09075345A1A06186C /* SDWebImageDownloaderOperation.h in Headers */,
+				EB250C28C42F84069E3B9747 /* SDWebImageManager.h in Headers */,
+				F8DF9F0A275B8F8E4D483650 /* SDWebImageOperation.h in Headers */,
+				5582CE707E750947CA91C2B5 /* SDWebImagePrefetcher.h in Headers */,
+				E5266553FFFE1484222B4207 /* UIButton+WebCache.h in Headers */,
+				BF13FDBA47493793D1E6652A /* UIImage+GIF.h in Headers */,
+				BE45B1C5ADEA50FF3A2BF17F /* UIImage+MultiFormat.h in Headers */,
+				9B123CF54D380C86A8EE759F /* UIImageView+HighlightedWebCache.h in Headers */,
+				766D851CED4B4AC5059BE168 /* UIImageView+WebCache.h in Headers */,
+				ACA9468CD39E92C1AAD49DB4 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DEBC97C509ECACEF17FCDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DDBC24689411B7A4DF96CD /* AFHTTPRequestOperation.h in Headers */,
+				B471F2D54722107BB2DCE3B6 /* AFHTTPRequestOperationManager.h in Headers */,
+				E534DE954360E0C987A26321 /* AFHTTPSessionManager.h in Headers */,
+				25CF327E2F63AF9DC01AD422 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				C44AA0D7B90F9DE367F63213 /* AFNetworkReachabilityManager.h in Headers */,
+				F6ADE2B249B366E1825976A7 /* AFNetworking.h in Headers */,
+				368040D85F147C2A1D1980A7 /* AFSecurityPolicy.h in Headers */,
+				2D21161A65F309934682CA43 /* AFURLConnectionOperation.h in Headers */,
+				769F544C3810E6CBE6624AAB /* AFURLRequestSerialization.h in Headers */,
+				7DF8C497E2FE47BE114303B3 /* AFURLResponseSerialization.h in Headers */,
+				AE09CA7B38997592459E0E94 /* AFURLSessionManager.h in Headers */,
+				E2E152AE667FE52C4D1C3863 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				74660F965DAB93D80396D8FE /* UIAlertView+AFNetworking.h in Headers */,
+				5FA05D79BEA268328CCF032B /* UIButton+AFNetworking.h in Headers */,
+				4505A04BB36C50381BA9AF9B /* UIImageView+AFNetworking.h in Headers */,
+				1C2CDBE126DFAE5344B870D4 /* UIKit+AFNetworking.h in Headers */,
+				27B291639BE839F01F137D9B /* UIProgressView+AFNetworking.h in Headers */,
+				1AE15A536FE1F8E3C780B216 /* UIRefreshControl+AFNetworking.h in Headers */,
+				1DBD4B91CCC01BA763E7F5A5 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28F8BF5C256006EFE2859F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9C836B149B3DF072B07C71 /* STPAPIClient.h in Headers */,
+				9D68143F5A9877C1C070D78A /* STPAPIConnection.h in Headers */,
+				5929F86CD5369AD5A1878BA4 /* STPBankAccount.h in Headers */,
+				68978F4CFB4247CA31C04D24 /* STPCard.h in Headers */,
+				2132E748B3FCB97CE25526CD /* STPCheckoutDelegate.h in Headers */,
+				BB433F1DC508BD03426AA256 /* STPCheckoutInternalUIWebViewController.h in Headers */,
+				E464F13E151FC9DB6CFC48E8 /* STPCheckoutOptions.h in Headers */,
+				1D441287192C3E99527AB7E3 /* STPCheckoutViewController.h in Headers */,
+				330B01791D0EF0677641C393 /* STPCheckoutWebViewAdapter.h in Headers */,
+				1C481A7CFC80F4B19DC3108D /* STPColorUtils.h in Headers */,
+				7C596F09D9B1308E0F5277B9 /* STPFormEncoder.h in Headers */,
+				191290E9F5E6B51FD3D92034 /* STPIOSCheckoutWebViewAdapter.h in Headers */,
+				25ECEF49EFD1870C328AAA43 /* STPNullabilityMacros.h in Headers */,
+				ECA7EFA995FC4734E8E8B4F3 /* STPOSXCheckoutWebViewAdapter.h in Headers */,
+				08F8B595FDCFA4B65BAAAFCC /* STPStrictURLProtocol.h in Headers */,
+				DBD97BE0AE421129BE2D6373 /* STPToken.h in Headers */,
+				79EB9CA792BA271A3F84E288 /* Stripe.h in Headers */,
+				F3B43BDDB5B4A7E57E0B6F8C /* StripeError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C2BCE67B834C9368E91C8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86A6FE5692BEA713C15CC37 /* PTKAddressZip.h in Headers */,
+				1C3E04BF00E30FA112EACED1 /* PTKCard.h in Headers */,
+				9DC42EDDF4C491A32CB5D03C /* PTKCardCVC.h in Headers */,
+				649D641382B9C2DF5735CDF9 /* PTKCardExpiry.h in Headers */,
+				1398AD96E5642619A6D13425 /* PTKCardNumber.h in Headers */,
+				EA667620A31374567B32D0B2 /* PTKCardType.h in Headers */,
+				458D091378A9B00EC5A17ADD /* PTKComponent.h in Headers */,
+				97E16AFD7EDC3D79936AEBC5 /* PTKTextField.h in Headers */,
+				596CDF550D6BB2A42C963160 /* PTKUSAddressZip.h in Headers */,
+				3C5A107918D6EB24CCB76717 /* PTKView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C941A7519D279060800F1F2 /* Pods-AmigoDash-SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30EF69F91E312CE5AA8DCCE /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-SDWebImage" */;
+			buildPhases = (
+				F608F6E6A0D0B4BBA969A7C1 /* Sources */,
+				846714E080B34DA39EE1B7AA /* Frameworks */,
+				187B112C80B295BE9EA3DEBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmigoDash-SDWebImage";
+			productName = "Pods-AmigoDash-SDWebImage";
+			productReference = 6C2B2EFF7E4870F5B823DAD4 /* libPods-AmigoDash-SDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		52F2863849F84CBCF5EECF40 /* Pods-AmigoDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2939BF237D5A3E18B4BB84 /* Build configuration list for PBXNativeTarget "Pods-AmigoDash" */;
+			buildPhases = (
+				D9FA1FA66038D096C177A482 /* Sources */,
+				35C2D55F35C4BEF5E9AA3AFD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE59275CF9D669FB06309533 /* PBXTargetDependency */,
+				1D2874646383BF6755FED5BB /* PBXTargetDependency */,
+				1905EB3BABEC48524E40B9A0 /* PBXTargetDependency */,
+				C836B71ABA9A17C2CD472516 /* PBXTargetDependency */,
+			);
+			name = "Pods-AmigoDash";
+			productName = "Pods-AmigoDash";
+			productReference = 6B389B814F820D8DFC8E9D2A /* libPods-AmigoDash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B855737C325814AC54A66354 /* Pods-AmigoDash-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780D491833CA475828E2B58B /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-AFNetworking" */;
+			buildPhases = (
+				4F7216209C571161D808C299 /* Sources */,
+				097985E9FD4094753E09A916 /* Frameworks */,
+				96DEBC97C509ECACEF17FCDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmigoDash-AFNetworking";
+			productName = "Pods-AmigoDash-AFNetworking";
+			productReference = 02461F4334A3A442A4E0FF9F /* libPods-AmigoDash-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD5C67F3B174A3A900304359 /* Pods-AmigoDash-Stripe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765A80AE3E85EC139386F21E /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-Stripe" */;
+			buildPhases = (
+				4CE0A7CBC82F9748B63F1B44 /* Sources */,
+				4D48E84DD559FD0B00889E15 /* Frameworks */,
+				ED28F8BF5C256006EFE2859F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmigoDash-Stripe";
+			productName = "Pods-AmigoDash-Stripe";
+			productReference = 64044012888CF8B9FF383252 /* libPods-AmigoDash-Stripe.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA9CC49E33D156A238E4D26A /* Pods-AmigoDash-PaymentKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD03389C9283A4EFBBEB5D5 /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-PaymentKit" */;
+			buildPhases = (
+				D8F6AB01AD1C81E2C404B5D3 /* Sources */,
+				CCAE57716AA8AAE540C69C8E /* Frameworks */,
+				F4C2BCE67B834C9368E91C8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AmigoDash-PaymentKit";
+			productName = "Pods-AmigoDash-PaymentKit";
+			productReference = 1E86ED7CE8E380DCD3C4704B /* libPods-AmigoDash-PaymentKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12E55DEA9DC87BCF5DC7305F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 78E25042FCE4EDCE7F2B7423 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 459D46A13DFF555F9AE5287D;
+			productRefGroup = 8AB90AEF9576420F824B15EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F2863849F84CBCF5EECF40 /* Pods-AmigoDash */,
+				B855737C325814AC54A66354 /* Pods-AmigoDash-AFNetworking */,
+				EA9CC49E33D156A238E4D26A /* Pods-AmigoDash-PaymentKit */,
+				4C941A7519D279060800F1F2 /* Pods-AmigoDash-SDWebImage */,
+				CD5C67F3B174A3A900304359 /* Pods-AmigoDash-Stripe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE0A7CBC82F9748B63F1B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA19A2C80BFC9F239C72DD /* Pods-AmigoDash-Stripe-dummy.m in Sources */,
+				49BADBBDD617E3BAE0B4DE15 /* STPAPIClient.m in Sources */,
+				AC99785308C08756FD1B5516 /* STPAPIConnection.m in Sources */,
+				6C5A84726B9BD390C175AE1D /* STPBankAccount.m in Sources */,
+				E860F671461BB04CF14A0C00 /* STPCard.m in Sources */,
+				A4C63C6813F491274A194999 /* STPCheckoutInternalUIWebViewController.m in Sources */,
+				ABFE492076DFADC36496B82A /* STPCheckoutOptions.m in Sources */,
+				185F8C6805F3F331FE04EC23 /* STPCheckoutViewController.m in Sources */,
+				9343161371C2429F69C69491 /* STPColorUtils.m in Sources */,
+				206BD50AFAFEC780757A5F91 /* STPFormEncoder.m in Sources */,
+				8F183A1262216BC5549A2D4B /* STPIOSCheckoutWebViewAdapter.m in Sources */,
+				A6401EE7905471BCC5EFB89F /* STPOSXCheckoutWebViewAdapter.m in Sources */,
+				47D6D96548AFE5EBD4BD0240 /* STPStrictURLProtocol.m in Sources */,
+				255D0C119F05B04EC7C0529A /* STPToken.m in Sources */,
+				1D8D77CCEF9D824C75D8116F /* StripeError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F7216209C571161D808C299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C6433F6BB34DFFFA5DDF64 /* AFHTTPRequestOperation.m in Sources */,
+				5D33296F04A6412DB7B0DB9C /* AFHTTPRequestOperationManager.m in Sources */,
+				8B0D31CEA0029E64F36FF3D4 /* AFHTTPSessionManager.m in Sources */,
+				6D703F7BB084F413B7A03B53 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5A2F6FB4176CB4DBE81C478A /* AFNetworkReachabilityManager.m in Sources */,
+				577D34CF697CAF0BAEA23F49 /* AFSecurityPolicy.m in Sources */,
+				03B4224B065E25C4EE51D0B8 /* AFURLConnectionOperation.m in Sources */,
+				9722E4BB9E6CC97E2580398A /* AFURLRequestSerialization.m in Sources */,
+				94ED793D6C390A75C9EF489B /* AFURLResponseSerialization.m in Sources */,
+				D39425908A976D3CA61E51F1 /* AFURLSessionManager.m in Sources */,
+				0F2623084839C938C1383E4E /* Pods-AmigoDash-AFNetworking-dummy.m in Sources */,
+				F11CA3960AF6440A26AA4546 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				52CB46E1E5030989DC6C5B4A /* UIAlertView+AFNetworking.m in Sources */,
+				FDED0C9AE8DDF71CC0E9D89B /* UIButton+AFNetworking.m in Sources */,
+				AAB89BDB34A01F5203EBCDAD /* UIImageView+AFNetworking.m in Sources */,
+				24A3F2AFA6446EE39D3959C6 /* UIProgressView+AFNetworking.m in Sources */,
+				15BD661B49970AC7DEB278AE /* UIRefreshControl+AFNetworking.m in Sources */,
+				77695B195196BBA09C3961B6 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F6AB01AD1C81E2C404B5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCC35AEB431CF4410DAACA4 /* PTKAddressZip.m in Sources */,
+				36381E4E569812F1771F75C7 /* PTKCard.m in Sources */,
+				1933614F8C7D1A75419CA2DC /* PTKCardCVC.m in Sources */,
+				9DF380022A569DE4CF9AD522 /* PTKCardExpiry.m in Sources */,
+				3E49929D239F910731A1F8EA /* PTKCardNumber.m in Sources */,
+				4D4DA225FFB87D9EE84BA650 /* PTKComponent.m in Sources */,
+				64262B16AC8552C239A964E0 /* PTKTextField.m in Sources */,
+				0F46923F0AA411AB52BD697D /* PTKUSAddressZip.m in Sources */,
+				39BB94FC204D32280DCB2FBB /* PTKView.m in Sources */,
+				2CF39F5A4B70D62CC16C982B /* Pods-AmigoDash-PaymentKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FA1FA66038D096C177A482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C66E8657986E79768C08A6 /* Pods-AmigoDash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F608F6E6A0D0B4BBA969A7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AAAD72D610230737CC1063 /* NSData+ImageContentType.m in Sources */,
+				40BAA6EF42BAB4BA2A7181BB /* Pods-AmigoDash-SDWebImage-dummy.m in Sources */,
+				1512C65626A025EDEA7FE7D2 /* SDImageCache.m in Sources */,
+				79AD6B485CC1CE03D7679419 /* SDWebImageCompat.m in Sources */,
+				076112A6DC56B4668ABC8940 /* SDWebImageDecoder.m in Sources */,
+				B97C3871AEB6AD9132D41D79 /* SDWebImageDownloader.m in Sources */,
+				86A54B76590CBB3BB7FFAE68 /* SDWebImageDownloaderOperation.m in Sources */,
+				0C0D465CC89EB6FA42D56A21 /* SDWebImageManager.m in Sources */,
+				830B1F42DCFAE22FFDB32535 /* SDWebImagePrefetcher.m in Sources */,
+				0ACCC6B415AC556713A78065 /* UIButton+WebCache.m in Sources */,
+				ED01E7FB6D1C12FBBFD489E8 /* UIImage+GIF.m in Sources */,
+				7A96F5F8215C3AB4511A484F /* UIImage+MultiFormat.m in Sources */,
+				2B60B6D03312AF0F49AD093D /* UIImageView+HighlightedWebCache.m in Sources */,
+				7E9C1C91D0853B770D3307BC /* UIImageView+WebCache.m in Sources */,
+				C92B1D8045119844E9D713AA /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1905EB3BABEC48524E40B9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AmigoDash-SDWebImage";
+			target = 4C941A7519D279060800F1F2 /* Pods-AmigoDash-SDWebImage */;
+			targetProxy = 69BDBCC8533B074ECB6EF546 /* PBXContainerItemProxy */;
+		};
+		1D2874646383BF6755FED5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AmigoDash-PaymentKit";
+			target = EA9CC49E33D156A238E4D26A /* Pods-AmigoDash-PaymentKit */;
+			targetProxy = 63728D387DF7264E5B410BE2 /* PBXContainerItemProxy */;
+		};
+		C836B71ABA9A17C2CD472516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AmigoDash-Stripe";
+			target = CD5C67F3B174A3A900304359 /* Pods-AmigoDash-Stripe */;
+			targetProxy = FC26A10FC5869E7752D291D4 /* PBXContainerItemProxy */;
+		};
+		DE59275CF9D669FB06309533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AmigoDash-AFNetworking";
+			target = B855737C325814AC54A66354 /* Pods-AmigoDash-AFNetworking */;
+			targetProxy = 74B05B481BFD0E1F8A2CFB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19DEF9BF3E7BEA86D286150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCD9F5B11191A72179D50C0 /* Pods-AmigoDash-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-AFNetworking/Pods-AmigoDash-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C269E0E964CAFDC7AB6F7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3856F213F4CEF9A7041C5865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63347C64F6682C4982C130CE /* Pods-AmigoDash-PaymentKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-PaymentKit/Pods-AmigoDash-PaymentKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5BB38B63978923CDDC2F87CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642551577DDAB8F3C524DA63 /* Pods-AmigoDash.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7D0808068F52F1C42FE9D286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCCD9F5B11191A72179D50C0 /* Pods-AmigoDash-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-AFNetworking/Pods-AmigoDash-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9152B5283D983B8FE8572194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6860A35023B86EC5EDE835E /* Pods-AmigoDash-Stripe-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-Stripe/Pods-AmigoDash-Stripe-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C7E38236676E94102C1B2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63347C64F6682C4982C130CE /* Pods-AmigoDash-PaymentKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-PaymentKit/Pods-AmigoDash-PaymentKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CC378E998393E52AAF1C890A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4C08C0D487B19882789134 /* Pods-AmigoDash-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-SDWebImage/Pods-AmigoDash-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7AB9A15818A523DE191D6C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82B7CCBAFF68C103860C0EA0 /* Pods-AmigoDash.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC051AD75887B85C26267A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6860A35023B86EC5EDE835E /* Pods-AmigoDash-Stripe-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-Stripe/Pods-AmigoDash-Stripe-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F1E809EE54974FFA40FCDD15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4C08C0D487B19882789134 /* Pods-AmigoDash-SDWebImage-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AmigoDash-SDWebImage/Pods-AmigoDash-SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F70935DE7B7959D01B25CC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765A80AE3E85EC139386F21E /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-Stripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC051AD75887B85C26267A79 /* Debug */,
+				9152B5283D983B8FE8572194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780D491833CA475828E2B58B /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DEF9BF3E7BEA86D286150E /* Debug */,
+				7D0808068F52F1C42FE9D286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E25042FCE4EDCE7F2B7423 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70935DE7B7959D01B25CC99 /* Debug */,
+				1C269E0E964CAFDC7AB6F7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD03389C9283A4EFBBEB5D5 /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-PaymentKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3856F213F4CEF9A7041C5865 /* Debug */,
+				9C7E38236676E94102C1B2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30EF69F91E312CE5AA8DCCE /* Build configuration list for PBXNativeTarget "Pods-AmigoDash-SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC378E998393E52AAF1C890A /* Debug */,
+				F1E809EE54974FFA40FCDD15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2939BF237D5A3E18B4BB84 /* Build configuration list for PBXNativeTarget "Pods-AmigoDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7AB9A15818A523DE191D6C2 /* Debug */,
+				5BB38B63978923CDDC2F87CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12E55DEA9DC87BCF5DC7305F /* Project object */;
+}

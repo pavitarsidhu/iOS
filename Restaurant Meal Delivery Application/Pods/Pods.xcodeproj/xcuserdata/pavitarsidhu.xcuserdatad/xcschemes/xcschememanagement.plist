@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AmigoDash-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmigoDash-PaymentKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmigoDash-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmigoDash-Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AmigoDash.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C941A7519D279060800F1F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52F2863849F84CBCF5EECF40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B855737C325814AC54A66354</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD5C67F3B174A3A900304359</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA9CC49E33D156A238E4D26A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
